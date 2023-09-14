@@ -1,21 +1,20 @@
 {
-  "manifest_version":3,
+  "manifest_version": 3,
   "name": "Whiteboard Extension",
   "version": "1.0",
   "description": "A virtual whiteboard for drawing and sketching.",
-  "permissions": ["activeTab"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/icon-16.png",
-      "48": "images/icon-48.png",
-      "128": "images/icon-128.png"
+      "16": "logo512.png",
+      "48": "logo512.png",
+      "128": "logo512.png"
     }
   },
   "icons": {
-    "16": "images/icon-16.png",
-    "48": "images/icon-48.png",
-    "128": "images/icon-128.png"
+    "16": "logo512.png",
+    "48": "logo512.png",
+    "128": "logo512.png"
   },
   "background": {
     "service_worker": "background.js"
@@ -29,5 +28,4 @@
   "permissions": [
     "activeTab"
   ]
-  
 }
